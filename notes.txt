@@ -1,0 +1,45 @@
+FLOW language proposal
+
+Important functions:
+
+Variables and data values
+
+    var <subject> <assignment>;
+Local variable in a given file
+    let <subject> <assignment>;
+Confined variable in a given file, data within remains within the curly brackets given {}.
+    incfile <subject> <assignment>;
+Global variable accessible from all files
+    int <subject> <assignment>;
+Local variable that can only hold an integer, using integer systems.
+    const <subject> <assignment>;
+Variable that cannot be reassigned. 
+    nest(<property>);
+Can be added within <assignment> of a variable or any other data set, as part of modification.
+        nest(int(<property));
+The specific modifier for the data type 'int': <property> can be assigned "short", "medium", "long", "veryLong", or a number, as to assign the amount of bits to represent a data value, in multiples of 4. Furthermore, can be assigned as a float, and can also inherit imaginary values.
+    v <subject> <action>;
+Call the variable. Same goes with the other data types, l, f, i, c for each corresponding data type
+
+Unassigned values, can be placed around at random. Usually, they are placed for static shapes, like [15,96,37], however should not be placed at random around the code, as it still takes up storage space.
+
+Variables can be used to hold a variety of data, however, unlike Javascript, can also hold physical objects on a 2d canvas or 3d plane. 
+
+As an example: 
+`
+let thing = object nest(class=1,id=5);
+
+Data management: 
+
+    string
+    "sample text"
+    'sample text'
+    `compound string`
+
+Strings can hold any random user inputs.
+
+Numbers (integers): self explanitory
+
+    ellipse([184,284,287],[0],[class="test",id="test2"]);
+
+Objects can also be stored as objects
