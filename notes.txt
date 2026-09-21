@@ -42,4 +42,4 @@ Numbers (integers): self explanitory
 
     ellipse([184,284,287],[0],[class="test",id="test2"]);
 
-Objects can also be stored as objects
+Objects can also be stored as objects are a form of data 
