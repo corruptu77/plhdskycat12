@@ -40,9 +40,10 @@ Strings can hold any random user inputs.
 
 Numbers (integers): self explanitory
 
+    object
     ellipse([184,284,287],[0],[class="test",id="test2"]);
 
-Objects can also be stored as objects are a form of data 
+Objects can also be stored as objects are a form of data in this concept.
 
 Lists and arrays, and nested arrays.
 
