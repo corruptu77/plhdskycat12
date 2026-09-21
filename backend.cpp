@@ -51,3 +51,14 @@ struct callData = {
     "dt.b" bool;
     "dt.t" bit;
 };
+struct functions = {
+    "function" function;
+    "params" [];
+    "name" string;
+    "data" data = {};
+}
+// To call functions, use the following syntax: fn <function>(<any params>) or use cfn to run concurrently
+struct callFunctions = {
+    "fn" function;
+    "cfn" concurrentFunction;
+}
