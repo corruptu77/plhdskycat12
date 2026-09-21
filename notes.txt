@@ -40,6 +40,24 @@ Strings can hold any random user inputs.
 
 Numbers (integers): self explanitory
 
+    object
     ellipse([184,284,287],[0],[class="test",id="test2"]);
 
-Objects can also be stored as objects
+Objects can also be stored as objects are a form of data in this concept.
+
+Lists and arrays, and nested arrays.
+
+Just about anything, like a russian doll.
+
+Functions. I swear I just capitalised it
+
+    function <subject> (<params>) {<content>}
+The classic function, self explanitory.
+
+    <data assignemnt> <subject> = function(<params>) {<content>}
+A different way for a function to be assigned
+
+Additional note, `nest(<assignment>)` can be used within <params>
+
+Technically, functions can also be unlisted, meaning no name. 
+
