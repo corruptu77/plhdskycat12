@@ -25,13 +25,16 @@ int parse(string code) {
 }
 
 class data {
-    string name;
-    string data = {};
-    string modifier;
+
+    public:
+        string name;
+        string held_data = {};
+        void deleteThis() {
+            delete this;
+        }
+
 };
 
 class function {
-    string name;
-    string content = {};
-    string modifier;
+    
 };
