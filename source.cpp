@@ -21,10 +21,13 @@ string tokenise(string code) {
 }
 
 int parse(string code) {
-   return -1; 
+   return 0; 
 }
 
 class data {
+    private:
+        string name;
+        string mod = {};
 
     public:
         data() {
@@ -32,6 +35,7 @@ class data {
             int stored = {};
             cout<<"created new thing"<<endl;
         };
+
 };
 
 class function {
