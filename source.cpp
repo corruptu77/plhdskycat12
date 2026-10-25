@@ -27,12 +27,11 @@ int parse(string code) {
 class data {
 
     public:
-        string name;
-        string held_data = {};
-        void deleteThis() {
-            delete this;
-        }
-
+        data() {
+            string generic_type = "var";
+            int stored = {};
+            cout<<"created new thing"<<endl;
+        };
 };
 
 class function {
