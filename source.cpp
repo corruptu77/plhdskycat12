@@ -23,3 +23,15 @@ string tokenise(string code) {
 int parse(string code) {
    return -1; 
 }
+
+class data {
+    string name;
+    string data = {};
+    string modifier;
+};
+
+class function {
+    string name;
+    string content = {};
+    string modifier;
+};

@@ -5,4 +5,4 @@ var b = 5;
 
 log(dt.a+dt.b);
 log(dt.a*dt.b);
-log(dt.c); //Should reslut in error
+log(dt.c); //Should result in error
